@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_edit_profile"
+        android:icon="@drawable/ic_profile"
+        android:title="@string/Edit_Profile" />
+
+    <item
+        android:id="@+id/navigation_create_group"
+        android:icon="@drawable/ic_group"
+        android:title="@string/Create_Group" />
+
+    <item
+        android:id="@+id/navigation_loguout"
+        android:icon="@drawable/ic_logout"
+        android:title="@string/Logout" />
+</menu>
