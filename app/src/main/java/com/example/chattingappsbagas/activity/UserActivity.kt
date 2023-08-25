@@ -1,5 +1,6 @@
 package com.example.chattingappsbagas.activity
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
@@ -65,9 +66,19 @@ class UserActivity : AppCompatActivity() {
         return true
     }
 
-    override fun onOptionsItemSelected(item:
-                                       MenuItem): Boolean {
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
+            R.id.navigation_edit_profile -> {
+                val intent = Intent(this, Profile::class.java)
+                startActivity(intent)
+                return true
+            }
+            R.id.navigation_loguout -> {
+                auth.signOut()
+                val intent = Intent(this, Login::class.java)
+                startActivity(intent)
+                return true
+            }
             else -> super.onOptionsItemSelected(item)
         }
     }

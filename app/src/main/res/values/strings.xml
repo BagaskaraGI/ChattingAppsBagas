@@ -12,10 +12,11 @@
     <string name="Edit_Profile">Edit Profile</string>
     <string name="Logout">Logout</string>
     <string name="Create_Group">Create Group</string>
-    <string name="label_profile">Profile</string>
     <string name="title_activity_register">Register</string>
     <string name="title_activity_login">Login</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="label_profile">Edit Profile</string>
+    <string name="btn_save">Save</string>
 </resources>
